@@ -70,8 +70,8 @@
 // let middlename = "Zinoviyovych";
 // let lastName = "Stashchyshyn";
 //
-// let person = `${lastName} ${firstName} ${middlename} `;    //// інтерполяція
-// let person = lastName +" "+ firstName +" "+ middlename;   ////  конкатинація
+// let person = `${lastName} ${firstName} ${middlename} `;    //// спосіб з використанням інтерполяції
+// let person = lastName +" "+ firstName +" "+ middlename;   ////  спосіб з використанням конкатинації
 // console.log(person)
 
 //- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
@@ -83,8 +83,9 @@
 
 // let lastName = prompt("Please enter your lastname");
 // let firstName = prompt("Please enter your firsname");
-// let middleName = prompt("Please enter your middleName");
-// let person =`Hello my name is: ${lastName} ${firstName} ${middleName}`;
+// let age = +prompt("Please enter your age");                            /////    +, приводимо до числового значення отриманих даних з prompt
+// let age = parseInt(prompt("Please enter your age")) ;                 /////     parseInt, приводимо до числового значення отриманих даних з prompt
+// let person =`Hello my name is: ${lastName} ${firstName}, my age is: ${age}`;
 // console.log(person);
 
 
