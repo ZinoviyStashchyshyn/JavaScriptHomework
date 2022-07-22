@@ -81,10 +81,10 @@
 
 //- За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 
-let lastName = prompt("Please enter your lastname");
-let firstName = prompt("Please enter your firsname");
-let middleName = prompt("Please enter your middleName");
-let person =`Hello my name is: ${lastName} ${firstName} ${middleName}`;
-console.log(person);
+// let lastName = prompt("Please enter your lastname");
+// let firstName = prompt("Please enter your firsname");
+// let middleName = prompt("Please enter your middleName");
+// let person =`Hello my name is: ${lastName} ${firstName} ${middleName}`;
+// console.log(person);
 
 
