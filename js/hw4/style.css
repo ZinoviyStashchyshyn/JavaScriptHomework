@@ -1,0 +1,12 @@
+
+div{
+   width: 300px;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-title{
+    text-transform: uppercase;
+}
