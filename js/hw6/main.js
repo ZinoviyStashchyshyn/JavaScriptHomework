@@ -99,48 +99,48 @@
 //
 // //описати колоду карт
 //
-// let cardSuit = [
-//     {mast: 'cherva', value: 6, color: 'red'},
-//     {mast: 'cherva', value: 7, color: 'red'},
-//     {mast: 'cherva', value: 8, color: 'red'},
-//     {mast: 'cherva', value: 9, color: 'red'},
-//     {mast: 'cherva', value: 10, color: 'red'},
-//     {mast: 'cherva', value: 'J', color: 'red'},
-//     {mast: 'cherva', value: 'Q', color: 'red'},
-//     {mast: 'cherva', value: 'K', color: 'red'},
-//     {mast: 'cherva', value: 'A', color: 'red'},
-//     {mast: 'cherva', value: 'Joker', color: 'red'},
-//     {mast: 'khresta', value: 6, color: 'black'},
-//     {mast: 'khresta', value: 7, color: 'black'},
-//     {mast: 'khresta', value: 8, color: 'black'},
-//     {mast: 'khresta', value: 9, color: 'black'},
-//     {mast: 'khresta', value: 10, color: 'black'},
-//     {mast: 'khresta', value: 'J', color: 'black'},
-//     {mast: 'khresta', value: 'Q', color: 'black'},
-//     {mast: 'khresta', value: 'K', color: 'black'},
-//     {mast: 'khresta', value: 'A', color: 'black'},
-//     {mast: 'khresta', value: 'Joker', color: 'black'},
-//     {mast: 'pika', value: 6, color: 'red'},
-//     {mast: 'pika', value: 7, color: 'red'},
-//     {mast: 'pika', value: 8, color: 'red'},
-//     {mast: 'pika', value: 9, color: 'red'},
-//     {mast: 'pika', value: 10, color: 'red'},
-//     {mast: 'pika', value: 'J', color: 'red'},
-//     {mast: 'pika', value: 'Q', color: 'red'},
-//     {mast: 'pika', value: 'K', color: 'red'},
-//     {mast: 'pika', value: 'A', color: 'red'},
-//     {mast: 'pika', value: 'Joker', color: 'red'},
-//     {mast: 'bubna', value: 6, color: 'black'},
-//     {mast: 'bubna', value: 7, color: 'black'},
-//     {mast: 'bubna', value: 8, color: 'black'},
-//     {mast: 'bubna', value: 9, color: 'black'},
-//     {mast: 'bubna', value: 10, color: 'black'},
-//     {mast: 'bubna', value: 'J', color: 'black'},
-//     {mast: 'bubna', value: 'Q', color: 'black'},
-//     {mast: 'bubna', value: 'K', color: 'black'},
-//     {mast: 'bubna', value: 'A', color: 'black'},
-//     {mast: 'bubna', value: 'Joker', color: 'black'}
-// ];
+let cardSuit = [
+    {mast: 'cherva', value: 6, color: 'red'},
+    {mast: 'cherva', value: 7, color: 'red'},
+    {mast: 'cherva', value: 8, color: 'red'},
+    {mast: 'cherva', value: 9, color: 'red'},
+    {mast: 'cherva', value: 10, color: 'red'},
+    {mast: 'cherva', value: 'J', color: 'red'},
+    {mast: 'cherva', value: 'Q', color: 'red'},
+    {mast: 'cherva', value: 'K', color: 'red'},
+    {mast: 'cherva', value: 'A', color: 'red'},
+    {mast: 'cherva', value: 'Joker', color: 'red'},
+    {mast: 'khresta', value: 6, color: 'black'},
+    {mast: 'khresta', value: 7, color: 'black'},
+    {mast: 'khresta', value: 8, color: 'black'},
+    {mast: 'khresta', value: 9, color: 'black'},
+    {mast: 'khresta', value: 10, color: 'black'},
+    {mast: 'khresta', value: 'J', color: 'black'},
+    {mast: 'khresta', value: 'Q', color: 'black'},
+    {mast: 'khresta', value: 'K', color: 'black'},
+    {mast: 'khresta', value: 'A', color: 'black'},
+    {mast: 'khresta', value: 'Joker', color: 'black'},
+    {mast: 'pika', value: 6, color: 'red'},
+    {mast: 'pika', value: 7, color: 'red'},
+    {mast: 'pika', value: 8, color: 'red'},
+    {mast: 'pika', value: 9, color: 'red'},
+    {mast: 'pika', value: 10, color: 'red'},
+    {mast: 'pika', value: 'J', color: 'red'},
+    {mast: 'pika', value: 'Q', color: 'red'},
+    {mast: 'pika', value: 'K', color: 'red'},
+    {mast: 'pika', value: 'A', color: 'red'},
+    {mast: 'pika', value: 'Joker', color: 'red'},
+    {mast: 'bubna', value: 6, color: 'black'},
+    {mast: 'bubna', value: 7, color: 'black'},
+    {mast: 'bubna', value: 8, color: 'black'},
+    {mast: 'bubna', value: 9, color: 'black'},
+    {mast: 'bubna', value: 10, color: 'black'},
+    {mast: 'bubna', value: 'J', color: 'black'},
+    {mast: 'bubna', value: 'Q', color: 'black'},
+    {mast: 'bubna', value: 'K', color: 'black'},
+    {mast: 'bubna', value: 'A', color: 'black'},
+    {mast: 'bubna', value: 'Joker', color: 'black'}
+];
 // // - знайти піковий туз
 //
 // console.log(cardSuit.find(value => value.mast === 'pika' && value.value === "A"));
@@ -159,8 +159,7 @@
 //
 // // - всі трефи від 9 та більше
 //
-// console.log(cardSuit.filter(value => (value.mast === "khresta" ) && (value.value !== 6) && (value.value !== 7) && (value.value !== 8) && (value.value !== 9) ));
-// console.log(cardSuit.filter(value => (value.mast === "khresta" && value.value > 9 + "")));
+// console.log(cardSuit.filter(value => value.mast === "khresta" && (value.value > 9 || typeof value.value === "string")));
 //
 // //Додатково по reduce
 // //Взяти описану колоду карт, та за допомоги редюсу попакувати всі карти по "мастях" в об'єкт
